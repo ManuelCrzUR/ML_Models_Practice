@@ -1,34 +1,40 @@
-# 🧠 Deep Learning & Neural Networks Portfolio
+# 🤖 Machine Learning & Data Science Hub
 
-> 📚 **Compendio de Implementaciones en Deep Learning**: Desde Perceptrones multicapa (MLP) hasta Redes Convolucionales (CNN) y técnicas de optimización.
+> A curated collection of machine learning implementations, exploratory data analysis (EDA), and predictive modeling projects.
 
-Este repositorio documenta mi curva de aprendizaje y experimentación técnica en el campo del Aprendizaje Profundo.
+This repository serves as a centralized vault for my technical practices, ranging from classical statistical models to deep neural networks.
 
-## 📂 Contenido Destacado
+## 📂 Repository Structure
 
-| Notebook/Proyecto | Tecnologías | Descripción |
-| :--- | :--- | :--- |
-| **Clasificación Redes MCG** | `TensorFlow`, `Keras` | Implementación de una arquitectura CNN para clasificación de imágenes. Análisis de Overfitting/Underfitting y curvas de aprendizaje. |
-| *(Próximamente)* **LSTM Time Series** | `PyTorch` | Predicción de series temporales. |
-| *(Próximamente)* **Transfer Learning** | `VGG16`, `ResNet` | Fine-tuning de modelos pre-entrenados. |
+The projects are categorized by learning paradigm and complexity:
 
-## 🛠️ Habilidades Demostradas
-*   **Arquitectura de Modelos:** Diseño de capas densas, convolucionales y de pooling.
-*   **Optimización:** Uso de algoritmos como Adam, RMSprop y ajuste de hiperparámetros (Learning Rate).
-*   **Evaluación:** Interpretación de matrices de confusión y métricas (Precision, Recall, F1).
+### 1. 🎯 Supervised Learning
+*   **[Classification](./Classification)**: Implementation of Random Forest, SVM, and Logistic Regression for discrete outcome prediction.
+*   **[Regression](./Regression)**: Simple and Multiple Linear Regression models for continuous variable estimation and trend analysis.
 
-## 🚀 Cómo usar este repo
-Cada notebook está autocontenido. Para correrlos localmente:
+### 2. 🧩 Unsupervised Learning
+*   **[Clustering](./Clustering)**: Data segmentation using K-Means and Hierarchical clustering. Includes Elbow Method analysis and PCA for cluster visualization.
 
-1.  Clonar el repo:
-    ```bash
-    git clone https://github.com/ManuelCrzUR/deep_learning_practice.git
-    ```
-2.  Instalar dependencias comunes:
-    ```bash
-    pip install tensorflow pandas matplotlib scikit-learn
-    ```
-3.  Abrir con Jupyter Lab o VS Code.
+### 3. 🧠 Deep Learning
+*   **[Deep Learning](./Deep_Learning)**: Advanced neural network architectures using TensorFlow/Keras. Includes CNNs for image classification and optimization techniques like Dropout and Early Stopping.
 
 ---
-*Hecho con ❤️ por Manuel Cruz.*
+
+## 🛠️ Toolstack
+*   **Languages:** Python (3.9+)
+*   **Frameworks:** TensorFlow, Keras, FastAPI (for specific integrations).
+*   **Data Science:** Scikit-Learn, Pandas, NumPy, Statsmodels.
+*   **Visualization:** Matplotlib, Seaborn, Plotly (Dash).
+
+## 🚀 Getting Started
+Every subfolder contains its own self-contained `.ipynb` notebook. To explore the code:
+
+1.  Clone the repository.
+2.  Install combined dependencies:
+    ```bash
+    pip install pandas numpy matplotlib seaborn scikit-learn tensorflow
+    ```
+3.  Launch Jupyter Lab or open the `.pdf` reports for a quick summary of results.
+
+---
+**Maintained by [Manuel Cruz](https://github.com/ManuelCrzUR)**
